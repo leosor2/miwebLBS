@@ -2,35 +2,62 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Inicio | Mi Proyecto Cloud</title>
+    <title>Proyecto Cloud | Inicio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <h1>Mi Proyecto en la Nube</h1>
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="about.html">Sobre mí</a>
-        <a href="contact.html">Contacto</a>
-    </nav>
+    <div class="container">
+        <h1>Proyecto Cloud</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="about.html">Sobre mí</a>
+            <a href="contact.html">Contacto</a>
+        </nav>
+    </div>
 </header>
 
-<main>
-    <h2>Bienvenido</h2>
-    <p>
-        Esta es una página web creada para la práctica de despliegue en la nube.
-        En este proyecto he probado los modelos IaaS, PaaS y SaaS.
-    </p>
+<section class="hero">
+    <div class="container">
+        <h2>Despliegue Web en la Nube</h2>
+        <p>
+            En esta práctica he publicado la misma web utilizando 
+            los modelos IaaS, PaaS y SaaS para comparar sus diferencias.
+        </p>
+        <a href="about.html" class="btn">Ver más</a>
+    </div>
+</section>
 
-    <p>
-        El objetivo es entender las diferencias entre cada modelo y comprobar
-        cómo cambia la forma de trabajar en cada caso.
-    </p>
-</main>
+<section class="cards container">
+    <div class="card">
+        <h3>IaaS</h3>
+        <p>
+            Configuración manual de servidor Ubuntu, instalación de Apache
+            y despliegue desde máquina virtual.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>PaaS</h3>
+        <p>
+            Publicación sencilla usando GitHub Pages sin configurar servidores.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>SaaS</h3>
+        <p>
+            Creación de sitio web con WordPress gestionando solo el contenido.
+        </p>
+    </div>
+</section>
 
 <footer>
-    <p>© 2026 - Proyecto Cloud</p>
+    <div class="container">
+        <p>© 2026 - Proyecto de Computación en la Nube</p>
+    </div>
 </footer>
 
 </body>
